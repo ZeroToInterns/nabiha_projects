@@ -10,19 +10,8 @@ public class ElectricCar {
 		maxRange = theMaxRange;
 		currentRange = 0;
 	}
-	//creating an electric car
-	public static void main(String[] args) {
-		ElectricCar newElectricCar = new ElectricCar("Tesla", 500);		
-		newElectricCar.getMake();
-		newElectricCar.getMaxRange();
-		newElectricCar.charge();
-		newElectricCar.getCurrentRange();
-		newElectricCar.drive(500);
-		newElectricCar.getCurrentRange();
-		newElectricCar.charge();
-		newElectricCar.drive(250);
-		newElectricCar.getCurrentRange();
-	}
+//methods
+	
 	// charges the ElectricCar to its maximum range
 	public void charge() {
 		currentRange = maxRange;
